@@ -12,11 +12,11 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "prebuild": "set CI=true&react-scripts test --colors",
+   
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "test:nowatch": "set CI=true&react-scripts test -u --coverage",
+    "test:nowatch": "set CI=true&react-scripts test --coverage",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
