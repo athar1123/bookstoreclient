@@ -1,0 +1,13 @@
+language: node_js
+node_js: 
+  - 14.16.1
+
+script: 
+    - "npm run build"
+    - "npm run test:nowatch"
+
+deploy:
+  skip_cleanup: true
+  provide: heroku
+  api_key: $HEROKU_TOKEN
+  app: bookstoreclienta   

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component makes a snapshot and tests 1`] = `
+<DocumentFragment>
+  <div>
+     First React App 
+  </div>
+</DocumentFragment>
+`;
