@@ -11,4 +11,5 @@ deploy:
   provide: heroku
   api_key: $HEROKU_TOKEN
   app: bookstoreclienta
-  branch: main
+  on:
+    branch: main
